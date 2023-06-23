@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+import ContactList from './components/ContactList.jsx';
 
 function App() {
-
   return (
-    <>
-      <div>
-      
-      </div>
-
-    </>
-  )
+    <div>
+      {/* Other components or JSX code */}
+      <ContactList />
+      {/* Other components or JSX code */}
+    </div>
+  );
 }
 
-export default App
+export default App;
